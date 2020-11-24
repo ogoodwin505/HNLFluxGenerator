@@ -32,8 +32,7 @@ static const int nue   = 12;
 static const int anue  = -12;
 bool debug = false;
 
-int main(int argc, char* argv[]){
-
+int main(int argc, char* argv[]){    
   double HSN_mass = 0.260;
   
   string parameter_file;
@@ -53,7 +52,7 @@ int main(int argc, char* argv[]){
   std::cout << "Simulating Flux for HNL with mass: " << HSN_mass << "GeV" << std::endl;
   std::cout << filename << std::endl;
   TFile* f = new TFile(filepath, "RECREATE");
-
+  //  std::cout<<"xsec"<<getenv("$GENIEXSECPATH")<<std::endl;
 
   TChain *cflux = new TChain("dk2nuTree");
 
