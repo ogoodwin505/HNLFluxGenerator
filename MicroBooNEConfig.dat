@@ -1,0 +1,25 @@
+#Parameter file
+
+
+# MicroBooNE 
+
+
+outputloc ./
+
+# from https://microboone-docdb.fnal.gov/cgi-bin/private/RetrieveFile?docid=13804&filename=uboone_detloc.pdf&version=3
+
+#//Detector Position in Beam Coords [cm]
+
+#in cm
+det_posx -124.325
+det_posy 0.93
+det_posz 46336.35
+
+#Cuboid Detector Bounds [cm]
+
+TPC_hix 256.35
+TPC_lox 0
+TPC_hiy 116.5
+TPC_loy -116.5
+TPC_hiz 1036.8
+TPC_loz 0
